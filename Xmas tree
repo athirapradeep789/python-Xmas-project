@@ -1,0 +1,169 @@
+import turtle
+from threading import Thread
+
+turtle.Screen().bgcolor("black")
+turtle.title("Christmas")
+turtle.setup(width=1080, height=700)
+turtle.up()
+turtle.color("green")
+turtle.fillcolor("green")
+turtle.setpos(-20, 150)
+turtle.down()
+turtle.speed(10)
+
+#Right Side Leaves
+turtle.begin_fill()
+turtle.forward(100)
+turtle.left(150)
+turtle.forward(90)
+turtle.right(150)
+turtle.forward(60)
+turtle.left(150)
+turtle.forward(60)
+turtle.right(150)
+turtle.forward(40)
+turtle.left(150)
+turtle.forward(100)
+
+
+# Left Side Leaves
+turtle.left(60)
+turtle.forward(100)
+turtle.left(150)
+turtle.forward(40)
+turtle.right(150)
+turtle.forward(60)
+turtle.left(150)
+turtle.forward(60)
+turtle.right(150)
+turtle.forward(90)
+turtle.left(150)
+turtle.forward(133)
+turtle.end_fill()
+
+
+# Trunk
+turtle.fillcolor("brown")
+turtle.color("brown")
+turtle.begin_fill()
+turtle.right(90)
+turtle.forward(100)
+turtle.right(90)
+turtle.forward(30)
+turtle.right(90)
+turtle.forward(100)
+turtle.end_fill()
+
+
+#Star
+turtle.up()
+turtle.setpos(-36, 275)
+turtle.color("#e6ed18")
+turtle.fillcolor("#e6ed18")
+turtle.begin_fill()
+turtle.right(120)
+turtle.down()
+turtle.forward(20)
+turtle.left(135)
+turtle.forward(20)
+turtle.right(90)
+turtle.forward(20)
+turtle.left(160)
+turtle.forward(22)
+turtle.right(55)
+turtle.forward(20)
+turtle.left(130)
+turtle.forward(18)
+turtle.right(70)
+turtle.forward(20)
+turtle.left(160)
+turtle.forward(20)
+turtle.right(90)
+turtle.forward(20)
+turtle.end_fill()
+
+
+#Ball1
+turtle.up()
+turtle.setpos(-122, 228)
+turtle.down()
+turtle.color("#e31010")
+turtle.fillcolor("#e31010")
+turtle.begin_fill()
+turtle.circle(7)
+turtle.end_fill()
+
+
+#Ball2
+turtle.up()
+turtle.setpos(-135, 200)
+turtle.down()
+turtle.color("#ebe705")
+turtle.fillcolor("#ebe705")
+turtle.begin_fill()
+turtle.circle(7)
+turtle.end_fill()
+
+
+
+#Ball3
+turtle.up()
+turtle.setpos(-152, 150)
+turtle.down()
+turtle.color("#9610e3")
+turtle.fillcolor("#9610e3")
+turtle.begin_fill()
+turtle.circle(7)
+turtle.end_fill()
+
+
+#Ball4
+turtle.up()
+turtle.setpos(37, 228)
+turtle.down()
+turtle.color("#e31099")
+turtle.fillcolor("#e31099")
+turtle.begin_fill()
+turtle.circle(7)
+turtle.end_fill()
+
+
+# #Ball5
+turtle.up()
+turtle.setpos(50, 200)
+turtle.down()
+turtle.color("#e38227")
+turtle.fillcolor("#e38227")
+turtle.begin_fill()
+turtle.circle(7)
+turtle.end_fill()
+
+
+# #Ball6
+turtle.up()
+turtle.setpos(68, 150)
+turtle.down()
+turtle.color("#16d9cf")
+turtle.fillcolor("#16d9cf")
+turtle.begin_fill()
+turtle.circle(7)
+turtle.end_fill()
+
+
+#Text
+turtle.up()
+turtle.setpos(-340, -200)
+turtle.color("green")
+turtle.down()
+turtle.write("Merry Christmas", font=("Lucida Calligraphy", 55))
+turtle.hideturtle()
+
+colors = ["#e22518", "#0db675", "#e9e521", "#2510e7"]
+col = 0
+
+turtle.speed(300)
+turtle.up()
+turtle.setpos(420, -60)
+turtle.down()
+turtle.exitonclick()
+
