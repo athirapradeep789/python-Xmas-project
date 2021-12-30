@@ -2,7 +2,7 @@ import turtle
 from threading import Thread
 
 turtle.Screen().bgcolor("black")
-turtle.title("Christmas")
+turtle.title("Christmas Tree")
 turtle.setup(width=1080, height=700)
 turtle.up()
 turtle.color("green")
